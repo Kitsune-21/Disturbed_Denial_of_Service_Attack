@@ -1,9 +1,9 @@
 ```mermaid
-sequenceDiagram
+sequenceDiagram;
 participant Attacker->>BotNet
-participant BotNet->> WebServer
-participant WebServer->> Firewall
-participant Firewall--x webserver
+participant BotNet->>WebServer
+participant WebServer->>Firewall
+participant Firewall--xwebserver
 ```
 The attacker is often the person in control of botnets which are usually hijakced devices thata re used to carry out attacks. 
 The botnets are the primary way that these acts are carried out. The attacker will hack into computers or other  devices and then will install a malicous peice of code or malware called a bot. The affected devices from that network become botnets. 
