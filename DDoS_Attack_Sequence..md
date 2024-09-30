@@ -1,6 +1,6 @@
 ```mermaid
 sequenceDiagram
-participant Attacker->> BotNet
+participant Attacker->>BotNet
 participant BotNet->> WebServer
 participant WebServer->> Firewall
 participant Firewall--x webserver
